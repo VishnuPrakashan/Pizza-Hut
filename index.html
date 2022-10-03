@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Bootstrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive-style.css">
+    
+    <title>PizzaHut</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./img/favicon/favicon.png">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navigation-wrap">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/Pizza-logo.png" alt="Pizza-logo" class="img-fluid img">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa-solid fa-bars-staggered navbar-tog"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutus">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#explore-food">Explore Foods</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Reviews</a>
+                        </li>
+                        <li><button class="main-btn">1200 123 456</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- section-1 top banner -->
+    <section id="home">
+        <div class="container-fluid px-0 top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <h1>UNLIMITED <br> MEDIUM <span>PIZZAS</span></h1>
+                        <h2>Medium 2-topping* pizza</h2>
+                        <p>*Additional charge for premium toppings. Minimum of 2 required.</p>
+                        <div class="mt-4">
+                            <button class="main-btn">Order now <i class="fas fa-shopping-basket ps-3"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-2 our menu -->
+    <section class="our-menu p-4">
+        <div class="container text-center">
+            <h2 class="pb-4">Our Menu</h2>
+            <div class="row">
+                <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+                    <div class="card">
+                        <div class="category-img">
+                            <a href="" class="link-category-product">
+                                <img src="./img/category-section/category-img-1.jpg" alt="card-image" class="img-fluid cat-img">
+                            </a>
+                        </div>
+                        <div class="category-title">
+                            <a href="#">Pizza</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6  col-sm-2 mb-4 mb-lg-0">
+                    <div class="card">
+                        <div class="category-img">
+                            <a href="" class="link-category-product">
+                                <img src="./img/category-section/category-img-2.jpg" alt="card-image" class="img-fluid cat-img">
+                            </a>
+                        </div>
+                        <div class="category-title">
+                            <a href="#">Sauces</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-6  col-sm-2 mb-4 mb-lg-0">
+                    <div class="card">
+                        <div class="category-img">
+                            <a href="" class="link-category-product">
+                                <img src="./img/category-section/category-img-3.jpg" alt="card-image" class="img-fluid cat-img">
+                            </a>
+                        </div>
+                        <div class="category-title">
+                            <a href="#">Combo</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-6  col-sm-2 mb-4 mb-lg-0">
+                    <div class="card">
+                        <div class="category-img">
+                            <a href="" class="link-category-product">
+                                <img src="./img/category-section/category-img-4.jpg" alt="card-image" class="img-fluid cat-img">
+                            </a>
+                        </div>
+                        <div class="category-title">
+                            <a href="#">Kids menus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6  col-sm-2 mb-4 mb-lg-0">
+                    <div class="card">
+                        <div class="category-img">
+                            <a href="" class="link-category-product">
+                                <img src="./img/category-section/category-img-5.jpg" alt="card-image" class="img-fluid cat-img">
+                            </a>
+                        </div>
+                        <div class="category-title">
+                            <a href="#">Chicken</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-2 mb-4 mb-lg-0">
+                    <div class="card">
+                        <div class="category-img">
+                            <a href="" class="link-category-product">
+                                <img src="./img/category-section/category-img-6.jpg" alt="card-image" class="img-fluid cat-img">
+                            </a>
+                        </div>
+                        <div class="category-title">
+                            <a href="#">Box meals</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- section-3 about -->
+    <section id="aboutus">
+        <div class="about-section wrapper">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-12 mb-5 mb-lg-0">
+                        <div class="card border-0">
+                            <img src="./img/about-section/about-img-1.jpg" alt="image" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 text-sec">
+                        <h2>We pride ourselves on making real food from the best ingredients.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo labore deleniti maxime
+                            laboriosam ex, provident aspernatur blanditiis cum, magni ad perspiciatis distinctio quis
+                            eveniet, iure pariatur! Harum, nisi obcaecati!</p>
+                        <button class="main-btn mt-4">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container food-type">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+                        <h2>We make everything by hand with the best possible ingredients.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam doloremque non voluptatum,
+                            alias iusto expedita pariatur rem aperiam est temporibus quia voluptatem nihil omnis quas ea
+                            suscipit maxime voluptate consectetur.</p>
+                        <ul class="list-unstyled py-3">
+                            <li>maxime voluptate consectetur</li>
+                            <li>expedita pariatur rem aperiam</li>
+                            <li>dolor sit amet consectetur</li>
+                        </ul>
+                        <button class="main-btn mt-4">Learn More</button>
+                    </div>
+                    <div class="col-lg-7 col-md-12">
+                        <div class="card border-0">
+                            <img src="./img/about-section/about-img-2.jpg" alt="image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section-4 explore -->
+    <section id="explore-food">
+        <div class="explore-food wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content text-center">
+                            <h2>EXPLORE FOODS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card border">
+                            <img src="./img/explore-section/explore-img-1.jpg" alt="french-fries" class="img-fluid explore-img">
+                            <div class="p-3">
+                                <h5>10 Reasons To Do A Digital Detox Challenge</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sit, dicta inventore
+                                    odit consequuntur ab rem officiis. Quaerat nostrum quis magni facilis incidunt
+                                    suscipit unde, sunt, reiciendis, tenetur nemo est.</p>
+                                <button class="mt-2 main-btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card border">
+                            <img src="./img/explore-section/explore-img-2.jpg" alt="Burger-image" class="img-fluid explore-img">
+                            <div class="p-3">
+                                <h5>The Ultimate Hangover Burger</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sit, dicta inventore
+                                    odit consequuntur ab rem officiis. Quaerat nostrum quis magni facilis incidunt
+                                    suscipit unde, sunt, reiciendis, tenetur nemo est.Quaerat nostrum quis.</p>
+                                <button class="mt-2 main-btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card border">
+                            <img src="./img/explore-section/explore-img-3.jpg" alt="cool-drinks" class="img-fluid explore-img">
+                            <div class="p-3">
+                                <h5>Traditional Soft Pretzels with Sweet Beer Cheese</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sit, dicta inventore
+                                    odit consequuntur ab rem officiis. Quaerat nostrum quis magni facilis incidunt
+                                    suscipit unde, sunt, reiciendis, tenetur nemo est.</p>
+                                <button class="mt-2 main-btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5 mt-lg-5">
+                        <div class="card border">
+                            <img src="./img/explore-section/explore-img-4.jpg" alt="fried-chicken" class="img-fluid explore-img">
+                            <div class="p-3">
+                                <h5>Fried Chicken Leg Piece</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sit, dicta inventore
+                                    odit consequuntur ab rem officiis. Quaerat nostrum quis magni facilis incidunt
+                                    suscipit unde, sunt, reiciendis, tenetur nemo est.</p>
+                                <button class="mt-2 main-btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5 mt-lg-5 ">
+                        <div class="card border">
+                            <img src="./img/explore-section/explore-img-5.jpg" alt="CocoCola" class="img-fluid explore-img">
+                            <div class="p-3">
+                                <h5>CocoCola For Fresh Mind</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sit, dicta inventore
+                                    odit consequuntur ab rem officiis. Quaerat</p>
+                                <button class="mt-2 main-btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5 mt-lg-5">
+                        <div class="card border">
+                            <img src="./img/explore-section/explore-img-6.jpg" alt="Biriyani" class="img-fluid explore-img">
+                            <div class="p-3">
+                                <h5>Chicken Biriyani</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sit, dicta inventore
+                                    odit consequuntur ab rem officiis. Quaerat nostrum quis magni facilis incidunt
+                                    suscipit unde, sunt, reiciendis, tenetur nemo est.</p>
+                                <button class="mt-2 main-btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section-5 Reviews -->
+    <section id="testimonial">
+        <div class="wrapper testimonial-section">
+            <div class="container text-center">
+                <div class="text-center pb-4">
+                    <h2>Testimonial</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-10 offset-lg-1">
+                        <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="carousel-caption">
+                                        <img src="./img/review-section/review-img-1.jpg">
+                                        <h5 class="mt-1">Alexandra Xavier - UX Designer</h5>
+                                        <p>Good Website for delivering pizza.Their brunch is awesome, I love the avocado
+                                            toast and the California focaccia. Pizza is really good as well</p>
+                                        <h4>Rating
+                                            <i class="fa-solid fa-star rating"></i>
+                                            <i class="fa-solid fa-star rating"></i>
+                                            <i class="fa-solid fa-star rating"></i>
+                                            <i class="fa-solid fa-star-half-stroke rating"></i>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-caption">
+                                        <img src="./img/review-section/review-img-2.jpg">
+                                        <h5 class="mt-1">Martin Romero - Front End</h5>
+                                        <p>The absolute best red sauce. Weather on Pizza or Pasta, it’s honestly
+                                            delicious. Portions are huge and the staff is extremely friendly and
+                                            courteous</p>
+                                        <h4>Rating
+                                            <i class="fa-solid fa-star rating"></i>
+                                            <i class="fa-solid fa-star rating"></i>
+                                            <i class="fa-solid fa-star rating"></i>
+                                            <i class="fa-solid fa-star rating"></i>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-caption">
+                                        <img src="./img/review-section/review-img-3.jpg">
+                                        <h5 class="mt-1">Nancy Carlos - UX Designer</h5>
+                                        <p>One of the best places I’ve eaten on Cape Cod. Great cocktails, awesome</p>
+                                        <h4>Rating
+                                            <i class="fa-solid fa-star rating"></i>
+                                            <i class="fa-solid fa-star rating"></i>
+                                            <i class="fa-solid fa-star rating"></i>
+                                            <i class="fa-solid fa-star-half-stroke rating"></i>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-caption">
+                                        <img src="./img/review-section/review-img-4.jpg">
+                                        <h5 class="mt-1">Maria Adele - Front End</h5>
+                                        <p>This is always our breakfast stop before heading home from vacation. Always
+                                            delicious. Always great service. Always worth the stop.</p>
+                                        <h4>Rating
+                                            <i class="fa-solid fa-star rating"></i>
+                                            <i class="fa-solid fa-star rating"></i>
+                                            <i class="fa-solid fa-star rating"></i>
+                                            <i class="fa-solid fa-star-half-stroke rating"></i>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+     <footer id="footer">
+          <div class="footer pt-5">
+               <div class="container">
+                     <div class="row">
+                        <div class="col-md-6 text-center">
+                            <div class="footer-socia pb-5 text-center">
+                                <a href="#"><i class="fa-brands fa-facebook-f color-1"></i></a>
+                                <a href="#"><i class="fab fa-twitter color-2"></i></a>
+                                <a href="#"><i class="fab fa-youtube color-3"></i></a>
+                                <a href="#"><i class="fab fa-dribbble color-4"></i></a>
+                                <a href="#"><i class="fab fa-linkedin color-5"></i></a>
+                                <a href="#"><i class="fab fa-instagram color-6"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <form class="newsletter">
+                                <div class="d-flex">
+                                    <input type="email" placeholder="Email Address Here" class="form-control" required>
+                                    <button class="main-btn" type="submit">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="footer-copy">
+                                <div class="copy-right text-center pt-3">
+                                   <p class="text-white">© 2022. PIZZAHUT. ALL rights reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+               </div>
+          </div>
+     </footer>
+
+    <!-- JS libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+    <!-- js -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
